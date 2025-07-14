@@ -1,0 +1,79 @@
+/* styles/DarkTheme.css */
+
+body {
+  background-color: #0e1117 !important; /* Deep navy blue */
+  color: #f0f0f0;
+  font-family: 'Inter', sans-serif;
+}
+
+.dark-background {
+  background-color: #0e1117;
+  color: #f0f0f0;
+}
+
+.card,
+.card.bg-dark {
+  background-color: #161b22 !important; /* Dark bluish-gray */
+  border: 1px solid #2d333b;
+  border-radius: 12px;
+  color: #f0f0f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.text-light {
+  color: #f0f0f0 !important;
+}
+
+hr.border-light {
+  border-color: #2d333b !important;
+}
+
+/* Input and textarea */
+.form-control {
+  background-color: #1f2937 !important; /* Cool dark slate */
+  color: #f0f0f0 !important;
+  border: 1px solid #374151 !important;
+}
+
+.form-control::placeholder {
+  color: #9ca3af !important;
+}
+
+.form-control:focus {
+  background-color: #1f2937 !important;
+  color: #f0f0f0 !important;
+  border-color: #4b5563 !important;
+  box-shadow: none !important;
+}
+
+/* Summary Card (for results) */
+.summary-card {
+  background-color: #161b22; /* subtle dark bluish */
+  color: #c9d1d9; /* soft gray text for better readability */
+  border: 1px solid #2d333b;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+
+/* Buttons - optional dark mode styling */
+.btn-primary {
+  background-color: #2563eb !important;  /* Blue accent */
+  border-color: #1d4ed8 !important;
+}
+
+.btn-primary:hover {
+  background-color: #1e40af !important;
+  border-color: #1e3a8a !important;
+}
+
+.btn-outline-danger {
+  border-color: #ef4444 !important;
+  color: #ef4444 !important;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ef4444 !important;
+  color: #fff !important;
+}
