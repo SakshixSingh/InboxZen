@@ -24,6 +24,13 @@ InboxZen is a sleek, AI-powered email summarizer that turns your messy threads o
 
 ---
 
+## 🌐 Live Demo
+
+[InboxZen](https://inboxzen.netlify.app/)
+
+
+---
+
 ## 🛠️ Installation
 
 ```bash
